@@ -1,0 +1,9 @@
+node_modules
+dist
+_site/plugins
+_site/js
+_site/fonts
+_site/**/*.min.js
+_site/_includes
+_site/utils
+_site/_11ty
