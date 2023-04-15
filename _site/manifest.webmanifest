@@ -1,0 +1,32 @@
+{
+  "name": "Vitrag Hill Grove",
+  "short_name": "VitragHillGrove",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#efefef",
+  "theme_color": "#efefef",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/img/android-chrome-192x192.png?v=algL95xAr6",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/android-chrome-192x192-m.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/android-chrome-384x384.png?v=algL95xAr6",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/android-chrome-512x512.png?v=algL95xAr6",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

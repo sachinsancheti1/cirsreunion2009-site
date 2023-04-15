@@ -58,7 +58,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addFilter('simpleDate', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc+5:30' }).toFormat('LLL dd, yyyy')
+    return DateTime.fromJSDate(new Date(dateObj), { zone: 'utc+5:30' }).toFormat('LLL dd, yyyy')
   })
 
   eleventyConfig.addFilter('stringy', (objarray) => {

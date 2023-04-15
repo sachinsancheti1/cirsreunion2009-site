@@ -1,0 +1,15 @@
+---
+title: Archives of all Content
+publishedAt: 2022-03-24
+layout: base.njk
+permalink: /posts/
+eleventyNavigation:
+  key: All posts
+  parent: main
+  order: 2
+---
+
+<h1>Archives</h1>
+
+{% set postslist = collections.all %}
+{% include "postslist.njk" %}

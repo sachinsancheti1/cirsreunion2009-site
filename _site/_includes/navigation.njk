@@ -1,0 +1,4 @@
+<div class="navigation no-print">
+    {% set navPages = collections.all | eleventyNavigation("main") %}
+    {{ navPages | eleventyNavigationToHtml | safe }}
+</div>
